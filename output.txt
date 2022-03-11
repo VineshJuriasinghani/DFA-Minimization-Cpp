@@ -1,0 +1,47 @@
+						 PRINTING DFA : 
+
+_________________________________________________________________________________________________________________________________________
+ Node : 0
+
+First : 0 -> a -> 1	Second : 0 -> b -> 2
+
+ Node : 1
+
+First : 1 -> a -> 1	Second : 1 -> b -> 3
+
+ Node : 2
+
+First : 2 -> a -> 1	Second : 2 -> b -> 2
+
+ Node : 3
+
+First : 3 -> a -> 1	Second : 3 -> b -> 4
+
+ Node : 4
+
+First : 4 -> a -> 1	Second : 4 -> b -> 2
+
+					 PRINTING MINIMIZED PARTITIONS :
+
+
+_________________________________________________________________________________________________________________________________________
+TOTAL PARTITIONS : 4
+
+ Partition # : 0 
+
+First: 0 -> a -> 1partition = 3  	Second: b -> 2partition = 0  
+
+First: 2 -> a -> 1partition = 3  	Second: b -> 2partition = 0  
+
+ Partition # : 1 
+
+First: 4 -> a -> 1partition = 3  	Second: b -> 2partition = 0  
+
+ Partition # : 2 
+
+First: 3 -> a -> 1partition = 3  	Second: b -> 4partition = 1  
+
+ Partition # : 3 
+
+First: 1 -> a -> 1partition = 3  	Second: b -> 3partition = 2  
+
